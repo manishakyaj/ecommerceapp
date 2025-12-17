@@ -1,4 +1,4 @@
-# 🛒 FASHION - E-commerce App
+# 🛒 E-commerce App
 
 A modern, responsive e-commerce application built with React frontend and Python Flask backend, inspired by the Quick Carts design.
 
