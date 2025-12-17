@@ -1,0 +1,27 @@
+{
+  "name": "freshmart-grocery-app",
+  "version": "1.0.0",
+  "description": "A modern online grocery store with React frontend and Python Flask backend",
+  "scripts": {
+    "start": "concurrently \"cd backend && python3 app.py\" \"cd frontend && npm run dev\"",
+    "start:backend": "cd backend && python3 app.py",
+    "start:frontend": "cd frontend && npm run dev",
+    "install:all": "cd backend && pip3 install -r requirements.txt && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "dev": "concurrently \"cd backend && python3 app.py\" \"cd frontend && npm run dev\""
+  },
+  "keywords": [
+    "grocery",
+    "food",
+    "react",
+    "python",
+    "flask",
+    "shopping",
+    "freshmart"
+  ],
+  "author": "FreshMart Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
